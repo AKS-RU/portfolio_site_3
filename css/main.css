@@ -116,10 +116,9 @@ body {
 .header__title-menu {
     padding-top: 7px;
     padding-left: 170px;
-    display: grid;
-    gap: 64px;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: space-between;
+    display: flex;
+    gap: 77px;
+    justify-content: center;
 }
 .header__title-menu a {
     font-family: var(--font-family-medium);
@@ -129,7 +128,7 @@ body {
 }
 .header__title-sign-in {
     padding-top: 7px;
-    padding-left: 230px;
+    padding-left: 279px;
     display: flex;
     font-family: var(--font-family);
     font-weight: 400;
