@@ -445,6 +445,28 @@ h1 {
     color: #484848;
     padding-bottom: 46px;
 }
-.btn {
+/* footer */
+.footer {
+}
+.footer .container {
+    background-color: #245852;
+}
 
+.footer__logo {
+    padding-top: 94px;
+    font-family: var(--third-family);
+    font-size: 40px;
+    color: #fff;
+}
+.footer ul {
+    padding-top: 60px;
+    padding-bottom: 86px;
+}
+.footer li {
+    padding-bottom: 60px;
+}
+.footer ul a {
+    font-family: var(--font-family-medium);
+    font-size: 25px;
+    color: #fff;
 }
