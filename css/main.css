@@ -203,7 +203,6 @@ h1 {
 }
 .how-it-works__flex h2 {
     font-family: var(--second-family-bold);
-    font-weight: 700;
     font-size: 50px;
     line-height: 157%;
     color: #01996d;
@@ -268,6 +267,7 @@ h1 {
 }
 #card2 {
     padding-top: 291px;
+    padding-bottom: 44px;
 }
 #card2 h3{
     position: relative;
@@ -279,9 +279,7 @@ h1 {
 #card2 p {
     padding-bottom: 40px;
 }
-#card2 img {
-    padding-bottom: 44px;
-}
+
 #card3 {
     padding-top: 60px;
 }
@@ -318,7 +316,6 @@ h1 {
 }
 .story__flex-left h4 {
     font-family: var(--second-family-bold);
-    font-weight: 700;
     font-size: 50px;
     line-height: 157%;
     color: #fff;
@@ -356,6 +353,7 @@ h1 {
 }
 /* our-product */
 .our-product {
+
 }
 .our-prodict__flex {
     padding-top: 122px;
@@ -366,10 +364,10 @@ h1 {
 .our-prodict__flex-lef {
     position: relative;
     display: inline-block;
-
 }
 .our-prodict__flex-lef-img {
     padding-left: 60px;
+    width: 100%;
     display: block;
 }
 .our-prodict__flex-lef-card {
@@ -490,16 +488,23 @@ h1 {
         padding-left: 15px;
         padding-right: 15px;
     }
+    .bcg-image__content{
+        padding-top: 175px;
+        padding-left: 20px;
+    }
 }
 
-@media  screen and (max-width: 1200px) {
+@media  screen and (max-width: 1397px) {
     .header__title-sign-in {
         padding-left: 50px;
     }
+
+    .header__title {
+        justify-content: space-between;
+    }
     .header__title-menu {
-        padding-left: 163px;
-        gap: 55px;
-        justify-content: center;
+        padding-left:50px;
+        gap: 26px;
     }
     .how-it-works h4 {
         padding-top: 50px;
@@ -555,21 +560,126 @@ h1 {
 }
 
 @media  screen and (max-width: 992px) {
+    .header__title-menu {
+        padding-left: 20px;
+        gap: 15px;
+    }
+        .header__title-menu a {
+        font-size: 15px;
+    }
+    .how-it-works__flex h2 {
+        font-size: 40px;
+    }
+    .story__flex-left h4 {
+        font-size: 40px;
+    }
+    .our-prodict__flex-right h3 {
+        font-size: 40px;
+    }
+}
 
+@media  screen and (max-width: 872px) {
+    .btn {
+        font-size: 15px;
+    }
+
+    .how-it-works__grid {
+        padding-top: 50px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+        #card2 {
+            padding-top: 0;
+            padding-bottom: 0;
+    }
+        #card3 {
+        position: relative;
+        margin-top: 0px;
+        padding-top: 0;
+    }
+    .story__flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .story__flex-left {
+        padding-right: 0;
+        padding-bottom: 40px;
+    }
+    .our-prodict__flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .our-prodict__flex-lef {
+        order: 2;
+        padding-bottom: 20px;
+    }
+    .our-prodict__flex-right {
+        padding-bottom: 20px;
+    }
+
+    .header__title-sign-in {
+        padding-left: 20px;
+        font-size: 15px;
+    }
+}
+
+@media  screen and (max-width: 776px) {
+    .header__title {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .header__title-sign-in {
+        padding-top: 40px;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 55px;
+    }
+    .bcg-image .container {
+        background-position: 60% center;
+    }
+    .bcg-image__content{
+        padding-top: 0px;
+    }
+    .bcg-image p {
+        font-size: 17px;
+    }
+    .our-prodict__flex {
+        padding-bottom: 150px;
+    }
 
 }
 
-@media  screen and (max-width: 768px) {
-
-
-}
-
-@media  screen and (max-width: 576px) {
-
-
-}
-
-@media  screen and (max-width: 376px) {
-
-
+@media  screen and (max-width: 504px) {
+    .header__title img {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .header__title-menu {
+        padding-left: 0px;
+        gap: 10px;
+    }
+    .bcg-image__content{
+        padding-top: 410px;
+        padding-left: 0px;
+    }
+    .how-it-works__flex{
+        flex-wrap: wrap;
+    }
+    .how-it-works__flex h2 {
+        padding-bottom: 20px;
+    }
+    .how-it-works__flex p {
+        text-align: right;
+    }
+    .how-it-works__grid-card img{
+        width: 100%;
+    }
+        .our-prodict__flex {
+        padding-bottom: 210px;
+    }
 }
