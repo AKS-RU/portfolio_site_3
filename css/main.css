@@ -488,6 +488,10 @@ h1 {
         padding-left: 15px;
         padding-right: 15px;
     }
+    .header__title-sign-in {
+        padding-right: 65px;
+        padding-left: 50px;
+    }
     .bcg-image__content{
         padding-top: 175px;
         padding-left: 20px;
@@ -495,16 +499,22 @@ h1 {
 }
 
 @media  screen and (max-width: 1397px) {
-    .header__title-sign-in {
-        padding-left: 50px;
-    }
+
 
     .header__title {
         justify-content: space-between;
     }
     .header__title-menu {
+        padding-left: 20px;
+        gap: 15px;
+    }
+    /* .header__title-menu {
         padding-left:50px;
         gap: 26px;
+    } */
+
+    .header__title-sign-in {
+
     }
     .how-it-works h4 {
         padding-top: 50px;
@@ -681,5 +691,31 @@ h1 {
     }
         .our-prodict__flex {
         padding-bottom: 210px;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    .header__title-menu {
+        gap: 5px;
+    }
+    .header__title-menu a {
+        white-space: nowrap;
+    }
+}
+
+@media  screen and (max-width: 320px) {
+    a {
+        padding: 0;
+    }
+    .header__title-menu {
+
+        gap: 15px;
+    }
+    .header__title-menu a {
+        white-space: nowrap;
+    }
+
+    .header__title-sign-in {
+        padding-right: 0;
     }
 }
